@@ -1,0 +1,9 @@
+#!/usr/bin/perl -w
+# mysqldump formatter by adhisimon@mondial.co.id 2010
+
+while (<STDIN>) {
+    $str = $_;
+
+    $str =~ s/\),\(/\),\n\(/g;
+    print $str;
+}

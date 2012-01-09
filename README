@@ -1,0 +1,7 @@
+mysqldump-formatter
+-------------------
+
+Simple tool to split mysqldump result into multiline format, like the result of
+phpMyAdmin.
+
+gua@adhisimon.or.id 2010
